@@ -23,6 +23,6 @@ def position_taken?(board, index)
   elsif board[index] == nil
     return false
   elsif index > 8
-    return false
+    return nil
   end
 end
